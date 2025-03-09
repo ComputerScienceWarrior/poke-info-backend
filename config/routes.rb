@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   get '/pokemon/:id', to: 'pokemon#show'
 
   post '/pokemon', to: 'pokemon#create'
-  post '/user', to: 'users#create'
+  post '/users/signup', to: 'users#create'
 end
